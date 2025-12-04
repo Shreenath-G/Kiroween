@@ -1,0 +1,84 @@
+{
+  "name": "Haunted API Collection",
+  "baseUrl": "https://jsonplaceholder.typicode.com",
+  "endpoints": [
+    {
+      "id": "1",
+      "name": "Summon All Users",
+      "method": "GET",
+      "url": "https://jsonplaceholder.typicode.com/users",
+      "description": "Retrieve all spirits from the user realm"
+    },
+    {
+      "id": "2",
+      "name": "Summon User Spirit",
+      "method": "GET",
+      "url": "https://jsonplaceholder.typicode.com/users/1",
+      "description": "Call forth a specific user entity"
+    },
+    {
+      "id": "3",
+      "name": "Read Cursed Posts",
+      "method": "GET",
+      "url": "https://jsonplaceholder.typicode.com/posts",
+      "description": "Browse messages from beyond the grave"
+    },
+    {
+      "id": "4",
+      "name": "Create Haunted Post",
+      "method": "POST",
+      "url": "https://jsonplaceholder.typicode.com/posts",
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      "body": "{\n  \"title\": \"Message from the Crypt\",\n  \"body\": \"The APIs are restless tonight...\",\n  \"userId\": 1\n}",
+      "description": "Send a message to the spirit realm"
+    },
+    {
+      "id": "5",
+      "name": "Summon Comments",
+      "method": "GET",
+      "url": "https://jsonplaceholder.typicode.com/comments?postId=1",
+      "description": "Hear the whispers of the dead"
+    },
+    {
+      "id": "6",
+      "name": "Update Cursed Post",
+      "method": "PUT",
+      "url": "https://jsonplaceholder.typicode.com/posts/1",
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      "body": "{\n  \"id\": 1,\n  \"title\": \"Updated Haunting\",\n  \"body\": \"The spirits have changed their message...\",\n  \"userId\": 1\n}",
+      "description": "Alter a message from beyond"
+    },
+    {
+      "id": "7",
+      "name": "Banish Post",
+      "method": "DELETE",
+      "url": "https://jsonplaceholder.typicode.com/posts/1",
+      "description": "Send a post back to the void"
+    },
+    {
+      "id": "8",
+      "name": "Summon Albums",
+      "method": "GET",
+      "url": "https://jsonplaceholder.typicode.com/albums",
+      "description": "Browse the photo albums of the deceased"
+    },
+    {
+      "id": "9",
+      "name": "View Haunted Photos",
+      "method": "GET",
+      "url": "https://jsonplaceholder.typicode.com/photos?albumId=1",
+      "description": "Gaze upon cursed images"
+    },
+    {
+      "id": "10",
+      "name": "Summon the 404 Ghost",
+      "method": "GET",
+      "url": "https://jsonplaceholder.typicode.com/nonexistent-endpoint",
+      "description": "Deliberately summon an error spirit (404)"
+    }
+  ]
+}

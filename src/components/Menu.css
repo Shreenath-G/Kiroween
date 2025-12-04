@@ -1,0 +1,163 @@
+.menu {
+  max-width: 800px;
+  padding: 40px;
+  background: rgba(0, 0, 0, 0.9);
+  border: 4px solid #00a800;
+  border-radius: 0;
+  color: #f8f8f8;
+}
+
+.menu-content {
+  text-align: center;
+}
+
+.title {
+  font-size: 48px;
+  margin-bottom: 10px;
+  color: #f83800;
+  text-shadow: 3px 3px 0 #000;
+  letter-spacing: 4px;
+}
+
+.glitch {
+  animation: glitch 1s infinite;
+}
+
+@keyframes glitch {
+  0%, 90%, 100% {
+    transform: translate(0);
+  }
+  92% {
+    transform: translate(-2px, 2px);
+  }
+  94% {
+    transform: translate(2px, -2px);
+  }
+  96% {
+    transform: translate(-2px, -2px);
+  }
+  98% {
+    transform: translate(2px, 2px);
+  }
+}
+
+.subtitle {
+  font-size: 14px;
+  color: #58f898;
+  margin-bottom: 30px;
+}
+
+.collection-info {
+  background: rgba(0, 168, 0, 0.1);
+  border: 2px solid #00a800;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.collection-info h2 {
+  color: #f8b800;
+  margin-bottom: 10px;
+}
+
+.menu-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin: 30px 0;
+}
+
+.btn {
+  padding: 15px 30px;
+  font-size: 18px;
+  font-family: 'Courier New', monospace;
+  font-weight: bold;
+  border: 3px solid;
+  background: none;
+  color: inherit;
+  cursor: pointer;
+  transition: all 0.2s;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.btn-primary {
+  border-color: #f83800;
+  color: #f83800;
+}
+
+.btn-primary:hover {
+  background: #f83800;
+  color: #000;
+  box-shadow: 0 0 20px #f83800;
+}
+
+.btn-secondary {
+  border-color: #00a800;
+  color: #00a800;
+}
+
+.btn-secondary:hover {
+  background: #00a800;
+  color: #000;
+  box-shadow: 0 0 20px #00a800;
+}
+
+.import-section {
+  background: rgba(0, 0, 132, 0.2);
+  border: 2px solid #0000d8;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.import-section h3 {
+  color: #78b4f8;
+  margin-bottom: 10px;
+}
+
+.file-input {
+  margin-top: 10px;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.5);
+  border: 2px solid #6c6c6c;
+  color: #f8f8f8;
+  width: 100%;
+  font-family: 'Courier New', monospace;
+}
+
+.instructions {
+  text-align: left;
+  background: rgba(136, 0, 188, 0.1);
+  border: 2px solid #8800bc;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.instructions h3 {
+  color: #d8a0f8;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.instructions ul {
+  list-style: none;
+  padding: 0;
+}
+
+.instructions li {
+  padding: 8px 0;
+  border-bottom: 1px solid rgba(216, 160, 248, 0.2);
+}
+
+.instructions li:last-child {
+  border-bottom: none;
+}
+
+.credits {
+  margin-top: 30px;
+  font-size: 12px;
+  color: #909090;
+}
+
+.credits p {
+  margin: 5px 0;
+}
