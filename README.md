@@ -140,5 +140,6 @@ MIT - Build something spooky!
 
 ## 🧛 Credits
 
-Built with Kiro AI for Kiroween 2024 Hackathon
+Built with Kiro AI for Kiroween 2025 Hackathon
 Inspired by Atari's Haunted House (1981)
+
